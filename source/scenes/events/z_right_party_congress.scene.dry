@@ -1,25 +1,29 @@
-title: April Conference of the <span style="color: #A60A3D;">**RSWP**</span> Conference 
-subtitle: The new RSWP leadership seeks a merger with the anti-Communist Party left...
+title: April Conference of the <span style="color: #A60A3D;">**RSWP**</span>
+subtitle: The new leadership seeks a merger with leftist elements hostile to the Communist Party...
 view-if: stegerwald_skibidi_time == time and (z_leader == "Stegerwald" or z_leader == "Adenauer") and dnvp_ideology == "Radical" and not kvp_cnblp_sister and not dkp_merger_waiting
 new-page: true
 max-visits: 1
 tags: event
 face-image: img/zentrum_3.jpg
 
-= [+ year +] [? if z_party_name != "CVP": <span style="color: #000000;">Center Party</span>?][? if z_party_name == "CVP": <span style="color: #000000;">**CVP**</span>?] Conference
+ April Conference of the <span style="color: #A60A3D;">**RSWP**</span>
 
-With Hugenberg’s hardliners tightening their grip over the <span style="color: #3E88B3;">**DNVP**</span>, any prospect of a merger with the [? if z_party_name != "CVP": <span style="color: #000000;">Center Party</span>?][? if z_party_name == "CVP": <span style="color: #000000;">**CVP**</span>?] has evaporated. But a new path to expansion has emerged. The party leadership now turns its attention to the fragmented remains of the anti-Hugenberg right—figures like Westarp and his <span style="color: #0087DC;">**KVP**</span>—as potential candidates for absorption.
+ The <span style="color: #A60A3D;">**RSWP**</span> is a pan socialist party, there is no denying that.
 
-The consequences are obvious. Bringing these elements into the fold would drag the [? if z_party_name != "CVP": <span style="color: #000000;">Center Party</span>?][? if z_party_name == "CVP": <span style="color: #000000;">**CVP**</span>?] further to the right—foreclosing any serious cooperation with the <span style="color: #c00000;">**SPD**</span> and entrenching the party within the conservative camp.
+With the recent shakeups in leftist politics caused by the establishment of the <span style="color: #AD1818;">**Communist Party**</span>, the dynamaism of the <span style="color: #A60A3D;">**RSWP**</span> finds itself in question.
 
-A vote is now before them: merge with the <span style="color: #0087DC;">**KVP**</span>—or continue the status quo.
+To remedy this, a merger has been proposed between the <span style="color: #A60A3D;">**RSWP**</span> and <span style="color: #00963B;">**GAY**</span> to unite their parties to stand against the newly formed menance on the left.
 
-- @cvp_kvp_merger: The [? if z_party_name != "CVP": <span style="color: #000000;">Center Party</span>?][? if z_party_name == "CVP": <span style="color: #000000;">**CVP**</span>?] absorbs the <span style="color: #0087DC;">**KVP**</span>!
+A vote has been put up to settle this matter once and for all.
+
+
+
+- @cvp_kvp_merger: The <span style="color: #A60A3D;">**RSWP**</span> absorbs the <span style="color: #00963B;">**GAY**</span>!
 - @status_quo: The [? if z_party_name != "CVP": <span style="color: #000000;">Center Party</span>?][? if z_party_name == "CVP": <span style="color: #000000;">**CVP**</span>?] has rejected a merger with the <span style="color: #3E88B3;">**DNVP**</span> splinters.
 
 @cvp_kvp_merger
-subtitle: The [? if z_party_name != "CVP": <span style="color: #000000;">Center Party</span>?][? if z_party_name == "CVP": <span style="color: #000000;">**CVP**</span>?] is not in government with us, and our strained relations have nudged them toward this option.
-unavailable-subtitle: The [? if z_party_name != "CVP": <span style="color: #000000;">Center</span>?][? if z_party_name == "CVP": <span style="color: #000000;">**CVP**</span>?] care enough about our mutual relations to obstruct this merger.
+subtitle: The leadership of the <span style="color: #A60A3D;">**RSWP**</span> desires the boost the merger with <span style="color: #00963B;">**GAY**</span> will provide. They do not care about the opinions of the <span style="color: #AD1818;">**Communist Party**</span>
+unavailable-subtitle: The <span style="color: #A60A3D;">**RSWP**</span> unexpectedly shoots down the merger! They clearly care more about their relations with the <span style="color: #AD1818;">**Communist Party**</span> too much
 choose-if: z_relation < 40 and not ((in_weimar_coalition or in_grand_coalition or in_popular_front or (spd_prussia and not in_left_front_prussia and not in_spd_majority_prussia)))
 on-arrival: z_party_name = "CVP"; workers_z -= 3; workers_spd += 3; unemployed_z -= 3; unemployed_spd += 3
 face-image: img/cvp.jpg
