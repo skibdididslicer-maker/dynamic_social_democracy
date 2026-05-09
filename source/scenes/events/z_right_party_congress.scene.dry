@@ -1,5 +1,5 @@
 title: April Conference of the <span style="color: #A60A3D;">**RSWP**</span>
-subtitle: The new leadership seeks a merger with leftist elements hostile to the Communist Party...
+subtitle: The new leadership seeks a merger with leftist elements hostile to the <span style="color: #700000;">**Communist Party**</span>...
 view-if: stegerwald_skibidi_time == time and (z_leader == "Stegerwald" or z_leader == "Adenauer") and dnvp_ideology == "Radical" and not kvp_cnblp_sister and not dkp_merger_waiting
 new-page: true
 max-visits: 1
@@ -9,9 +9,9 @@ face-image: img/e56pb91f26ag1.png
 
  The <span style="color: #A60A3D;">**RSWP**</span> is a pan socialist party, there is no denying that.
 
-With the recent shakeups in leftist politics caused by the establishment of the <span style="color: #AD1818;">**Communist Party**</span>, the dynamaism of the <span style="color: #A60A3D;">**RSWP**</span> finds itself in question.
+With the recent shakeups in leftist politics caused by the establishment of the <span style="color: #700000;">**Communist Party**</span>, the dynamaism of the <span style="color: #A60A3D;">**RSWP**</span> finds itself in question.
 
-To remedy this, a merger has been proposed between the <span style="color: #A60A3D;">**RSWP**</span> and <span style="color: #00963B;">**GAY**</span> to unite their parties to stand against the newly formed menance on the left.
+To remedy this, a merger has been proposed between the <span style="color: #A60A3D;">**RSWP**</span> and <span style="color: #00963B;">**GAY**</span> to rejuvinate the non-<span style="color: #A60A3D;">**Communist**</span>
 
 A vote has been put up to settle this matter once and for all.
 
@@ -21,7 +21,7 @@ A vote has been put up to settle this matter once and for all.
 
 @cvp_kvp_merger
 subtitle: The leadership of the <span style="color: #A60A3D;">**RSWP**</span> desires the boost the merger with <span style="color: #00963B;">**GAY**</span> will provide.
-unavailable-subtitle: The <span style="color: #A60A3D;">**RSWP**</span> unexpectedly shoots down the merger! They are not willing to sacrificie their relationship with the <span style="color: #AD1818;">**Communist Party**</span> for this 
+unavailable-subtitle: The party sees no need to change what works. The <span style="color: #A60A3D;">**RSWP**</span> does not want to strain their relationship with the  <span style="color: #700000;">**Communist Party**</span>
 choose-if: z_relation < 40 and not ((in_weimar_coalition or in_grand_coalition or in_popular_front or (spd_prussia and not in_left_front_prussia and not in_spd_majority_prussia)))
 on-arrival: z_party_name = "CVP"; workers_z -= 3; workers_spd += 3; unemployed_z -= 3; unemployed_spd += 3
 face-image: img/cvp.jpg
@@ -32,9 +32,9 @@ The [? if z_leader == "Stegerwald": <span style="color: #000000;">Center Party</
 Still, the party’s transformation marches on. [? if z_leader == "Stegerwald": To mark the merger—and its progress toward becoming an interconfessional Volkspartei—it has formally rebranded itself as the <i>Christliche Volkspartei</i> (<span style="color: #000000;">Christian People's Party</span>)—an effort to finally shed its old, Catholic-associated <span style="color: #000000;">Center</span> label. ?]
 
 @status_quo
-subtitle: The <span style="color: #A60A3D;">**RSWP**</span> wishes to continue to have amicable relations with the  <span style="color: #AD1818;">**Communist Party**</span>
+subtitle: The <span style="color: #A60A3D;">**RSWP**</span>, for whatever reason, denies the merger.
 choose-if: z_relation >= 40 or (in_weimar_coalition or in_grand_coalition or in_popular_front or (spd_prussia and not in_left_front_prussia and not in_spd_majority_prussia))
-unavailable-subtitle:The <span style="color: #A60A3D;">**RSWP**</span> does not care about the opinions of the <span style="color: #AD1818;">**Communist Party**</span>
+unavailable-subtitle:  The <span style="color: #A60A3D;">**RSWP**</span> is dead-set on the merger. They do not care about what effects it could have in relation to the  <span style="color: #700000;">**Communist Party**</span>.
 on-arrival: z_relation += 10; z_party_name = "CVP"; pro_republic += 5; nationalism -= 3; rural_kvp -= 2; rural_other -= 2 if not kvp_formed; rural_z += 2
 face-image: img/zentrum_2.jpg
 
