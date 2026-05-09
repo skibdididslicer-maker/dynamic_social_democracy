@@ -1,5 +1,5 @@
-title: [+ year +] [? if z_party_name != "CVP": <span style="color: #000000;">Center Party</span>?][? if z_party_name == "CVP": <span style="color: #000000;">**CVP**</span>?] Conference 
-subtitle: [+ z_leader +] moves to merge with the anti-Hugenberg Right...
+title: April Conference of the <span style="color: #A60A3D;">**RSWP**</span> Conference 
+subtitle: The new RSWP leadership seeks a merger with the anti-Communist Party left...
 view-if: stegerwald_skibidi_time == time and (z_leader == "Stegerwald" or z_leader == "Adenauer") and dnvp_ideology == "Radical" and not kvp_cnblp_sister and not dkp_merger_waiting
 new-page: true
 max-visits: 1
