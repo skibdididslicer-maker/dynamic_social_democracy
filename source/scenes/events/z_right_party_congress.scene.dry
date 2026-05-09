@@ -20,7 +20,7 @@ A vote has been put up to settle this matter once and for all.
 - @status_quo: The <span style="color: #A60A3D;">**RSWP**</span>, quite unexpectedly, refuses to merge with <span style="color: #00963B;">**GAY**</span>!
 
 @cvp_kvp_merger
-subtitle: The leadership of the <span style="color: #A60A3D;">**RSWP**</span> desires the boost the merger with <span style="color: #00963B;">**GAY**</span> will provide. They do not care about the opinions of the <span style="color: #AD1818;">**Communist Party**</span>
+subtitle: The leadership of the <span style="color: #A60A3D;">**RSWP**</span> desires the boost the merger with <span style="color: #00963B;">**GAY**</span> will provide.
 unavailable-subtitle: The <span style="color: #A60A3D;">**RSWP**</span> unexpectedly shoots down the merger! They are not willing to sacrificie their relationship with the <span style="color: #AD1818;">**Communist Party**</span> for this 
 choose-if: z_relation < 40 and not ((in_weimar_coalition or in_grand_coalition or in_popular_front or (spd_prussia and not in_left_front_prussia and not in_spd_majority_prussia)))
 on-arrival: z_party_name = "CVP"; workers_z -= 3; workers_spd += 3; unemployed_z -= 3; unemployed_spd += 3
@@ -34,7 +34,7 @@ Still, the party’s transformation marches on. [? if z_leader == "Stegerwald": 
 @status_quo
 subtitle: The <span style="color: #A60A3D;">**RSWP**</span> wishes to continue to have amicable relations with the  <span style="color: #AD1818;">**Communist Party**</span>
 choose-if: z_relation >= 40 or (in_weimar_coalition or in_grand_coalition or in_popular_front or (spd_prussia and not in_left_front_prussia and not in_spd_majority_prussia))
-unavailable-subtitle: The <span style="color: #A60A3D;">**RSWP**</span> is dead-set on the merger.
+unavailable-subtitle:The <span style="color: #A60A3D;">**RSWP**</span> does not care about the opinions of the <span style="color: #AD1818;">**Communist Party**</span>
 on-arrival: z_relation += 10; z_party_name = "CVP"; pro_republic += 5; nationalism -= 3; rural_kvp -= 2; rural_other -= 2 if not kvp_formed; rural_z += 2
 face-image: img/zentrum_2.jpg
 
